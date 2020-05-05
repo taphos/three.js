@@ -250,9 +250,9 @@ function WebGLRenderer( parameters ) {
 
 	function initGLContext() {
 
-		extensions = new WebGLExtensions( _gl );
+		extensions = parameters.extensions !== undefined ? parameters.extensions : new WebGLExtensions( _gl );
 
-		capabilities = new WebGLCapabilities( _gl, extensions, parameters );
+		capabilities = parameters.capabilities !== undefined ? parameters.capabilities : new WebGLCapabilities( _gl, extensions, parameters );
 
 		if ( capabilities.isWebGL2 === false ) {
 

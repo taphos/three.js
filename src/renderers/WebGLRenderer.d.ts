@@ -116,6 +116,8 @@ export interface WebGLRendererParameters {
 	animation?: WebGLAnimation;
 	morphtargets?: WebGLMorphtargets;
 	shadowMap?: WebGLShadowMap;
+	extensions?: WebGLExtensions;
+	capabilities?: WebGLCapabilities;
 	xr?: WebXRManager;
 }
 

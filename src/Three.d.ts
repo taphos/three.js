@@ -177,6 +177,8 @@ export * from './renderers/webgl/WebGLRenderStates';
 export * from './renderers/webgl/WebGLBackground';
 export * from './renderers/webgl/WebGLAnimation';
 export * from './renderers/webgl/WebGLMorphtargets';
+export * from './renderers/webgl/WebGLCapabilities.js';
+export * from './renderers/webgl/WebGLExtensions.js';
 export * from './constants';
 export * from './Three.Legacy';
 

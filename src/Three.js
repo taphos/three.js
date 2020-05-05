@@ -165,6 +165,8 @@ export { WebGLBufferRenderer } from './renderers/webgl/WebGLBufferRenderer.js';
 export { WebGLIndexedBufferRenderer } from './renderers/webgl/WebGLIndexedBufferRenderer.js';
 export { WebGLAnimation } from './renderers/webgl/WebGLAnimation.js';
 export { WebGLMorphtargets } from './renderers/webgl/WebGLMorphtargets.js';
+export { WebGLCapabilities } from './renderers/webgl/WebGLCapabilities.js';
+export { WebGLExtensions } from './renderers/webgl/WebGLExtensions.js';
 export * from './constants.js';
 export * from './Three.Legacy.js';
 
