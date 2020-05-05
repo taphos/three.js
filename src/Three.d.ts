@@ -170,6 +170,13 @@ export * from './renderers/webgl/WebGLShadowMap';
 export * from './renderers/webgl/WebGLState';
 export * from './renderers/webgl/WebGLTextures';
 export * from './renderers/webgl/WebGLUniforms';
+export * from './renderers/webgl/WebGLUtils';
+export * from './renderers/webgl/WebGLGeometries';
+export * from './renderers/webgl/WebGLAttributes';
+export * from './renderers/webgl/WebGLRenderStates';
+export * from './renderers/webgl/WebGLBackground';
+export * from './renderers/webgl/WebGLAnimation';
+export * from './renderers/webgl/WebGLMorphtargets';
 export * from './constants';
 export * from './Three.Legacy';
 
